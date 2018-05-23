@@ -11,7 +11,7 @@
 * You must have [Docker](https://www.docker.com/community-edition) and [Docker-Compose](https://docs.docker.com/compose/) installed.
 * Clone this repository
 * Open terminal, navigate to the target folder
-* Run: `docker compose run`
+* Run: `docker-compose run`
     * It will download necessary images of Mongo, Kafka, and both, SignUp service and Persistence service
     * Run them and bind to the local ports (SignUp service - localhost:8080) 
 
